@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+h2 {
+    color: orange
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    padding: 5px;
+}
+.card {
+    border: none;
+}
+header {
+    background-image: url("https://i.ytimg.com/vi/NAiI8qWY0GM/maxresdefault.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+header h1 {
+    background-color: rgba(0, 0, 0, 0.574);
+    color: white;
+    display: inline-block;
+    padding: 5px
+}
+p {
+font-family: 'Open Sans',
+sans-serif;
+}
+h1, h2, h3 {
+   font-family: 'Comfortaa',
+   cursive;
+}
+.py-10 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#videos iframe {
+
+    transition: all 0.5s ease-in-out;
+}
+#videos iframe:hover {
+    transform: scale(1.1);
+}
