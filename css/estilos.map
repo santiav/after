@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss"
+	],
+	"sourcesContent": [
+		"$colorTitulos: orange;\n\n* {\n    margin: 0;\n    padding: 0;\n}\n\nhtml {\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n}\nh1,\nh2,\nh3 {\n    font-family: 'Comfortaa',\n        cursive;\n}\nh1 {\n    color: blue;\n    font-size: 24px;\n}\n\nh2 {\n    color: orange\n}\n\nul {\n    list-style: none;\n\n    li {\n        padding: 5px;\n    }\n}\n\n.card {\n    border: none;\n}\n\nheader {\n    background-image: url(\"https://i.ytimg.com/vi/NAiI8qWY0GM/maxresdefault.jpg\");\n    background-size: contain;\n    background-repeat: no-repeat;\n    background-position: center center;\n\n    h1 {\n        background-color: rgba(0, 0, 0, 0.574);\n        color: white;\n        display: inline-block;\n        padding: 5px\n    }\n}\n\np {\n    font-family: 'Open Sans',\n        sans-serif;\n}\n\n\n\n.py-10 {\n    padding-top: 200px;\n    padding-bottom: 200px;\n}\n\n#videos iframe {\n\n    transition: all 0.5s ease-in-out;\n\n    &:hover {\n        transform: scale(1.1);\n    }\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,mCAAmC;CACnD;;;AACD,AAAA,EAAE;AACF,EAAE;AACF,EAAE,CAAC;EACC,WAAW,EAAE,oBACF;CACd;;;AACD,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;CAClB;;;AAED,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,MACX;CAAC;;;AAED,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CAKnB;;;AAND,AAGI,EAHF,CAGE,EAAE,CAAC;EACC,OAAO,EAAE,GAAG;CACf;;;AAGL,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,IAAI;CACf;;;AAED,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,2DAA2D;EAC7E,eAAe,EAAE,OAAO;EACxB,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,aAAa;CAQrC;;;AAZD,AAMI,MANE,CAMF,EAAE,CAAC;EACC,gBAAgB,EAAE,oBAAoB;EACtC,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,GACb;CAAC;;;AAGL,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,uBACC;CACjB;;;AAID,AAAA,MAAM,CAAC;EACH,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;CACxB;;;AAED,AAAA,OAAO,CAAC,MAAM,CAAC;EAEX,UAAU,EAAE,oBAAoB;CAKnC;;;AAPD,AAII,OAJG,CAAC,MAAM,AAIT,MAAM,CAAC;EACJ,SAAS,EAAE,UAAU;CACxB"
+}

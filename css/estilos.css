@@ -1,0 +1,82 @@
+/* line 3, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* line 11, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+h1,
+h2,
+h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* line 17, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+/* line 22, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+h2 {
+  color: orange;
+}
+
+/* line 26, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+ul {
+  list-style: none;
+}
+
+/* line 29, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+ul li {
+  padding: 5px;
+}
+
+/* line 34, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+.card {
+  border: none;
+}
+
+/* line 38, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+header {
+  background-image: url("https://i.ytimg.com/vi/NAiI8qWY0GM/maxresdefault.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 44, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+header h1 {
+  background-color: rgba(0, 0, 0, 0.574);
+  color: white;
+  display: inline-block;
+  padding: 5px;
+}
+
+/* line 52, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 59, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+.py-10 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/* line 64, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+#videos iframe {
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 68, ../../../../../Users/santiagoav/Library/Mobile Documents/com~apple~CloudDocs/AP - CaC - CH/CH 2022/ultimo-after/3era entrega/scss/estilos.scss */
+#videos iframe:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=estilos.css.map */
